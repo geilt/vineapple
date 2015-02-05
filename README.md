@@ -123,6 +123,26 @@ var vine = Vineapple.create({
   username: 'Ananas Comosus'
 });
 ```
+## Proxy Support
+
+If you want to use a proxy, just make sure ot pass an object with {proxy: 'http://proxyip.com:port'} in the sonctructor. 
+
+For authentication.
+```javascript
+var vine = new Vineapple({
+  proxy: 'http://proxyip.com:port',
+});
+```
+If already authenticated.
+```javascript
+
+var vine = new Vineapple({
+  proxy: 'http://proxyip.com:port',
+  key: '0123456789abcdef01-23456789-abcd-ef01-2345-6789abcdef01',
+  userId: '901234567890123456',
+  username: 'Ananas Comosus'
+});
+```
 
 ## Node-style Callbacks vs. Promises
 
