@@ -125,7 +125,7 @@ var vine = Vineapple.create({
 ```
 ## Proxy Support
 
-If you want to use a proxy, just make sure ot pass an object with {proxy: 'http://proxyip.com:port'} in the sonctructor. 
+If you want to use a proxy, just make sure to pass an object with {proxy: 'http://proxyip.com:port'} in the constructor. 
 
 For authentication.
 ```javascript
@@ -135,7 +135,6 @@ var vine = new Vineapple({
 ```
 If already authenticated.
 ```javascript
-
 var vine = new Vineapple({
   proxy: 'http://proxyip.com:port',
   key: '0123456789abcdef01-23456789-abcd-ef01-2345-6789abcdef01',
